@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_main_menu"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Main Menu" />
+
+        <item android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_baseline_person_24"
+            android:title="Profile" />
+
+        <item android:id="@+id/nav_calendar"
+            android:icon="@drawable/ic_baseline_calendar_today_24"
+            android:title="Calendar" />
+
+        <item android:id="@+id/nav_events"
+            android:icon="@drawable/ic_baseline_event_24"
+            android:title="My Events" />
+
+        <item android:id="@+id/nav_groups"
+            android:icon="@drawable/ic_baseline_group_24"
+            android:title="My Groups" />
+
+        <item android:id="@+id/nav_about"
+            android:icon="@drawable/ic_baseline_info_24"
+            android:title="About the app" />
+
+        <item android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_baseline_logout"
+            android:title="Logout" />
+
+    </group>
+</menu>

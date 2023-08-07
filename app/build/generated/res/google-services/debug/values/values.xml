@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">717678558192-1lalgap4lcl3f6htff6852hiagdvvm83.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">717678558192</string>
+    <string name="google_api_key" translatable="false">AIzaSyBdMlVGsywZ3UUXLB8bdfIu_1NsXm03FsE</string>
+    <string name="google_app_id" translatable="false">1:717678558192:android:9e494b2a9a6991d353bb35</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBdMlVGsywZ3UUXLB8bdfIu_1NsXm03FsE</string>
+    <string name="google_storage_bucket" translatable="false">aplicatie-grup-prieteni.appspot.com</string>
+    <string name="project_id" translatable="false">aplicatie-grup-prieteni</string>
+</resources>

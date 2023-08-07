@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".eventActivities.CreateEventActivity">
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="56dp"
+        android:layout_height="46dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.019"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.01"
+        app:srcCompat="@drawable/my_back_arrow" />
+
+
+    <TextView
+        android:id="@+id/chosenDate"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:background="#30ffffff"
+        android:backgroundTint="#3F51B5"
+        android:padding="17dp"
+        android:text="Selected date:"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.19" />
+
+    <Button
+        android:id="@+id/chosenHour"
+        android:layout_width="350dp"
+        android:onClick="popTimePicker"
+        android:layout_height="60dp"
+        android:backgroundTint="#3F51B5"
+        android:padding="17dp"
+        android:text="Choose time"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eventName"
+        app:layout_constraintVertical_bias="0.060000002" />
+
+    <EditText
+        android:id="@+id/eventName"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:background="#30ffffff"
+        android:backgroundTint="#3F51B5"
+        android:hint="Event name"
+        android:padding="17dp"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chosenDate"
+        app:layout_constraintVertical_bias="0.048" />
+
+    <Spinner
+        android:id="@+id/spinnerGroupName"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:background="@drawable/my_spinner"
+        android:padding="17dp"
+        android:prompt="@string/spinner_title"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chosenHour"
+        app:layout_constraintVertical_bias="0.076" />
+
+    <EditText
+        android:id="@+id/eventLocation"
+        android:padding="17dp"
+        android:textSize="20sp"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:background="#30ffffff"
+        android:backgroundTint="#3F51B5"
+        android:hint="Event location"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerGroupName"
+        app:layout_constraintVertical_bias="0.123" />
+
+    <Button
+        android:id="@+id/buttonCreateEventPart2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#3F51B5"
+        android:text="Create Event"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eventLocation" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

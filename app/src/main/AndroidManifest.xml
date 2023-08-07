@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="acs.upb.licenta.aplicatiegrup">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo2"
+        android:label="PlanIt!"
+        android:roundIcon="@drawable/logo2"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Licenta">
+        <activity
+            android:name=".eventActivities.ParticipantsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".others.AboutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".popups.PopAddExpenses"
+            android:exported="false"
+            android:theme="@style/Theme.Licenta.PopMe" />
+        <activity
+            android:name=".adminActivities.AdminEventChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".adminActivities.AdminSelectedEventActivity"
+            android:exported="false" />
+        <activity
+            android:name=".adminActivities.AdminEventsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".adminActivities.AdminMemberProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".adminActivities.AdminViewMembersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".eventActivities.TaskManagerActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".popups.PopAddTask"
+            android:exported="false"
+            android:theme="@style/Theme.Licenta.PopMe" />
+        <activity
+            android:name=".adminActivities.AdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".adminActivities.AdminGroupsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".adminActivities.AdminSelectedGroupActivity"
+            android:exported="false" />
+
+        <service
+            android:name=".others.MyBackgroundService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <activity
+            android:name=".groupActivities.MemberProfileActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".groupActivities.ViewMembersActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".popups.PopGroupCode"
+            android:exported="false"
+            android:theme="@style/Theme.Licenta.PopMe" />
+        <activity
+            android:name=".popups.PopDoubleCheckDeleteGroup"
+            android:exported="false"
+            android:theme="@style/Theme.Licenta.PopMe" />
+        <activity
+            android:name=".popups.PopDoubleCheckDeleteEvent"
+            android:exported="false"
+            android:theme="@style/Theme.Licenta.PopMe" />
+        <activity
+            android:name=".popups.PopDoubleCheckLeaveGroup"
+            android:exported="false"
+            android:theme="@style/Theme.Licenta.PopMe" />
+        <activity
+            android:name=".popups.PopDoubleCheckLeaveEvent"
+            android:exported="false"
+            android:theme="@style/Theme.Licenta.PopMe" />
+        <activity
+            android:name=".eventActivities.ExpenseTrackerActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".eventActivities.CreatePollActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".eventActivities.ResultPollActivity"
+            android:exported="false" />
+        <activity
+            android:name=".eventActivities.PollsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".eventActivities.EventChatActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".eventActivities.ShoppingListActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".eventActivities.SelectedEventActivity"
+            android:exported="false" />
+        <activity
+            android:name=".eventActivities.CreateEventActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".popups.PopJoinGroup"
+            android:exported="false"
+            android:theme="@style/Theme.Licenta.PopMe" />
+        <activity
+            android:name=".groupActivities.SelectedGroupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".popups.PopCreateGroup"
+            android:exported="false"
+            android:theme="@style/Theme.Licenta.PopMe" />
+        <activity
+            android:name=".groupActivities.MyGroupsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".eventActivities.MyEventsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".eventActivities.CalendarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".userRelated.ProfileActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".others.DrawerBaseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainMenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".userRelated.RegisterActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".userRelated.LoginActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

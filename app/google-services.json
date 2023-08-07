@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "717678558192",
+    "project_id": "aplicatie-grup-prieteni",
+    "storage_bucket": "aplicatie-grup-prieteni.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:717678558192:android:9e494b2a9a6991d353bb35",
+        "android_client_info": {
+          "package_name": "acs.upb.licenta.aplicatiegrup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "717678558192-1lalgap4lcl3f6htff6852hiagdvvm83.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdMlVGsywZ3UUXLB8bdfIu_1NsXm03FsE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "717678558192-1lalgap4lcl3f6htff6852hiagdvvm83.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

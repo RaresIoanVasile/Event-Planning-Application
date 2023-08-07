@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation2"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="acs.upb.licenta.aplicatiegrup.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_calendar"
+            app:destination="@id/calendar" />
+        <action
+            android:id="@+id/action_nav_home_to_myGroups"
+            app:destination="@id/myGroups" />
+        <action
+            android:id="@+id/action_nav_home_to_myEvents"
+            app:destination="@id/myEvents" />
+        <action
+            android:id="@+id/action_nav_home_to_profile"
+            app:destination="@id/profile" />
+        <action
+            android:id="@+id/action_nav_home_self"
+            app:destination="@id/nav_home" />
+    </fragment>
+
+    <activity
+        android:id="@+id/calendar"
+        android:name="acs.upb.licenta.aplicatiegrup.eventActivities.CalendarActivity"
+        android:label="activity_calendar"
+        tools:layout="@layout/activity_calendar" />
+    <activity
+        android:id="@+id/myEvents"
+        android:name="acs.upb.licenta.aplicatiegrup.eventActivities.MyEventsActivity"
+        android:label="activity_my_events"
+        tools:layout="@layout/activity_my_events" />
+    <activity
+        android:id="@+id/myGroups"
+        android:name="acs.upb.licenta.aplicatiegrup.groupActivities.MyGroupsActivity"
+        android:label="activity_my_groups"
+        tools:layout="@layout/activity_my_groups" />
+    <activity
+        android:id="@+id/profile"
+        android:name="acs.upb.licenta.aplicatiegrup.userRelated.ProfileActivity"
+        android:label="activity_profile"
+        tools:layout="@layout/activity_profile" />
+</navigation>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".eventActivities.CreateEventActivity">
+
+    <ImageButton
+        android:id="@+id/backToPolls3"
+        android:layout_width="56dp"
+        android:layout_height="46dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.019"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.01"
+        app:srcCompat="@drawable/my_back_arrow" />
+
+    <TextView
+        android:id="@+id/pollName3"
+        android:padding="17dp"
+        android:textSize="20sp"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:text="Poll name"
+        android:background="#30ffffff"
+        android:backgroundTint="#3F51B5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.11" />
+
+
+    <TextView
+        android:id="@+id/pollDescription3"
+        android:layout_width="350dp"
+        android:layout_height="120dp"
+        android:background="#30ffffff"
+        android:backgroundTint="#3F51B5"
+        android:padding="17dp"
+        android:text="Poll description"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pollName3"
+        app:layout_constraintVertical_bias="0.027" />
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="400dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pollDescription3"
+        app:layout_constraintVertical_bias="0.0" >
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/poll_options2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#30ffffff"
+            android:backgroundTint="#3F51B5"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintVertical_bias="0.187" />
+
+<!--        <LinearLayout-->
+<!--            android:id="@+id/ll_mask"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:background="@android:color/transparent"-->
+<!--            android:clickable="true"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:visibility="visible" />-->
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

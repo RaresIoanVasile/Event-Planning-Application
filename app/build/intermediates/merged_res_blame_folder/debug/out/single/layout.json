@@ -1,0 +1,218 @@
+[
+    {
+        "merged": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\poll_item.xml",
+        "source": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\src\\main\\res\\layout\\poll_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_create_event.xml",
+        "source": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\src\\main\\res\\layout\\activity_create_event.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\task_item.xml",
+        "source": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\src\\main\\res\\layout\\task_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_polls.xml",
+        "source": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\src\\main\\res\\layout\\activity_polls.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\poll_option.xml",
+        "source": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\src\\main\\res\\layout\\poll_option.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_participants.xml",
+        "source": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\src\\main\\res\\layout\\activity_participants.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_register.xml",
+        "source": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\src\\main\\res\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_profile.xml",
+        "source": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\src\\main\\res\\layout\\activity_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_admin_view_members.xml",
+        "source": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\src\\main\\res\\layout\\activity_admin_view_members.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
+        "source": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_event_chat.xml",
+        "source": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\src\\main\\res\\layout\\activity_event_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_my_groups.xml",
+        "source": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\src\\main\\res\\layout\\activity_my_groups.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_view_members.xml",
+        "source": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\src\\main\\res\\layout\\activity_view_members.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_admin_member_profile.xml",
+        "source": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\src\\main\\res\\layout\\activity_admin_member_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\content_layout.xml",
+        "source": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\src\\main\\res\\layout\\content_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_about.xml",
+        "source": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\src\\main\\res\\layout\\activity_about.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_admin_groups.xml",
+        "source": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\src\\main\\res\\layout\\activity_admin_groups.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_pop_group_code.xml",
+        "source": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\src\\main\\res\\layout\\activity_pop_group_code.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main_menu14.xml",
+        "source": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\src\\main\\res\\layout\\activity_main_menu14.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\event_item.xml",
+        "source": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\src\\main\\res\\layout\\event_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_admin_selected_event.xml",
+        "source": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\src\\main\\res\\layout\\activity_admin_selected_event.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\other_message.xml",
+        "source": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\src\\main\\res\\layout\\other_message.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_calendar.xml",
+        "source": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\src\\main\\res\\layout\\activity_calendar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_admin_event_chat.xml",
+        "source": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\src\\main\\res\\layout\\activity_admin_event_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_create_poll.xml",
+        "source": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\src\\main\\res\\layout\\activity_create_poll.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_admin_selected_group.xml",
+        "source": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\src\\main\\res\\layout\\activity_admin_selected_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_shopping_cart.xml",
+        "source": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\src\\main\\res\\layout\\activity_shopping_cart.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\me_message.xml",
+        "source": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\src\\main\\res\\layout\\me_message.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_pop_create_group.xml",
+        "source": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\src\\main\\res\\layout\\activity_pop_create_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_result_poll.xml",
+        "source": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\src\\main\\res\\layout\\activity_result_poll.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_admin_events.xml",
+        "source": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\src\\main\\res\\layout\\activity_admin_events.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_selected_group.xml",
+        "source": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\src\\main\\res\\layout\\activity_selected_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_pop_double_check_leave_event.xml",
+        "source": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\src\\main\\res\\layout\\activity_pop_double_check_leave_event.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_admin.xml",
+        "source": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\src\\main\\res\\layout\\activity_admin.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_pop_double_check_leave_group.xml",
+        "source": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\src\\main\\res\\layout\\activity_pop_double_check_leave_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_my_events.xml",
+        "source": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\src\\main\\res\\layout\\activity_my_events.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_pop_join_group.xml",
+        "source": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\src\\main\\res\\layout\\activity_pop_join_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_pop_add_task.xml",
+        "source": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\src\\main\\res\\layout\\activity_pop_add_task.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_pop_add_expenses.xml",
+        "source": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\src\\main\\res\\layout\\activity_pop_add_expenses.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\spinner_item.xml",
+        "source": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\src\\main\\res\\layout\\spinner_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\member_item.xml",
+        "source": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\src\\main\\res\\layout\\member_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\group_item.xml",
+        "source": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\src\\main\\res\\layout\\group_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\calendar_event_item.xml",
+        "source": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\src\\main\\res\\layout\\calendar_event_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\notification_item.xml",
+        "source": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\src\\main\\res\\layout\\notification_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_member_profile.xml",
+        "source": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\src\\main\\res\\layout\\activity_member_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_expense_tracker.xml",
+        "source": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\src\\main\\res\\layout\\activity_expense_tracker.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\expense_tracker_item.xml",
+        "source": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\src\\main\\res\\layout\\expense_tracker_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\shopping_cart_item.xml",
+        "source": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\src\\main\\res\\layout\\shopping_cart_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_task_manager.xml",
+        "source": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\src\\main\\res\\layout\\activity_task_manager.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_drawer_base.xml",
+        "source": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\src\\main\\res\\layout\\activity_drawer_base.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_selected_event.xml",
+        "source": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\src\\main\\res\\layout\\activity_selected_event.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\main_drawer_header.xml",
+        "source": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\src\\main\\res\\layout\\main_drawer_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_pop_double_check_delete_event.xml",
+        "source": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\src\\main\\res\\layout\\activity_pop_double_check_delete_event.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_pop_double_check_delete_group.xml",
+        "source": "C:\\Users\\Rares\\Desktop\\Licenta\\app\\src\\main\\res\\layout\\activity_pop_double_check_delete_group.xml"
+    }
+]

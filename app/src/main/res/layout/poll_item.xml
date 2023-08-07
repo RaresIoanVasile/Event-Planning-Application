@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="365dp"
+    android:layout_height="150dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardBackgroundColor="#3F51B5"
+    android:layout_gravity="center"
+    android:layout_marginBottom="10dp">
+
+    <LinearLayout
+        android:layout_width="365dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"/>
+
+    <LinearLayout
+        android:layout_width="365dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"/>
+
+    <TextView
+        android:id="@+id/pollNameText"
+        android:textColor="@color/white"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Poll Name: "
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/winnerText"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="60dp"
+        android:layout_below="@id/pollNameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current winner: "
+        />
+
+    <TextView
+        android:id="@+id/statusText"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/winnerText"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="10dp"
+        android:text="Status: " />
+</androidx.cardview.widget.CardView>

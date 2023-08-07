@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15sp">
+
+    <TextView
+        android:id="@+id/task"
+        android:layout_width="160dp"
+        android:layout_height="60sp"
+        android:layout_centerVertical="true"
+        android:background="#3F51B5"
+        android:gravity="center"
+        android:text="rezervare la restaurant ora 15"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <CheckBox
+        android:id="@+id/checked2"
+        android:layout_width="22sp"
+        android:layout_height="22sp"
+        android:buttonTint="#3F51B5"
+        android:layout_toRightOf="@id/takeOn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/takeOn"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/takeOn"
+        android:layout_width="120sp"
+        android:layout_height="60sp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:backgroundTint="#3F51B5"
+        android:text="Take on task!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.29"
+        app:layout_constraintStart_toEndOf="@+id/task"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/assigned"
+        android:layout_width="150sp"
+        android:layout_height="60sp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:backgroundTint="#3F51B5"
+        android:gravity="center"
+        android:text="nume"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.29"
+        app:layout_constraintStart_toEndOf="@+id/task"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

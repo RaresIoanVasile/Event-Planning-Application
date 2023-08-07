@@ -1,0 +1,554 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="acs.upb.licenta.aplicatiegrup"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Rares\.gradle\caches\transforms-3\59daaa093809f4e7de26fce6a8b4d89e\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:26:5-79
+12-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Rares\.gradle\caches\transforms-3\59daaa093809f4e7de26fce6a8b4d89e\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:26:22-76
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\Rares\.gradle\caches\transforms-3\75de762bfa41b0c129883dcf7fc3f957\transformed\jetified-play-services-measurement-api-21.2.2\AndroidManifest.xml:24:5-68
+13-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\Rares\.gradle\caches\transforms-3\75de762bfa41b0c129883dcf7fc3f957\transformed\jetified-play-services-measurement-api-21.2.2\AndroidManifest.xml:24:22-65
+14    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+14-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\Rares\.gradle\caches\transforms-3\75de762bfa41b0c129883dcf7fc3f957\transformed\jetified-play-services-measurement-api-21.2.2\AndroidManifest.xml:25:5-79
+14-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\Rares\.gradle\caches\transforms-3\75de762bfa41b0c129883dcf7fc3f957\transformed\jetified-play-services-measurement-api-21.2.2\AndroidManifest.xml:25:22-76
+15    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+15-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Rares\.gradle\caches\transforms-3\1e5c8562abbb89781a38e3fc1af109c4\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:26:5-110
+15-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Rares\.gradle\caches\transforms-3\1e5c8562abbb89781a38e3fc1af109c4\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:26:22-107
+16
+17    <application
+17-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:7:5-163:19
+18        android:allowBackup="true"
+18-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:8:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.8.0] C:\Users\Rares\.gradle\caches\transforms-3\c8e85aa3070864e3f26e08ad64339958\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@drawable/logo2"
+21-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:9:9-39
+22        android:label="PlanIt!"
+22-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:10:9-32
+23        android:roundIcon="@drawable/logo2"
+23-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:11:9-44
+24        android:supportsRtl="true"
+24-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:12:9-35
+25        android:testOnly="true"
+26        android:theme="@style/Theme.Licenta" >
+26-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:13:9-45
+27        <activity
+27-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:14:9-16:40
+28            android:name="acs.upb.licenta.aplicatiegrup.eventActivities.ParticipantsActivity"
+28-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:15:13-65
+29            android:exported="false" />
+29-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:16:13-37
+30        <activity
+30-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:17:9-19:40
+31            android:name="acs.upb.licenta.aplicatiegrup.others.AboutActivity"
+31-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:18:13-49
+32            android:exported="false" />
+32-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:19:13-37
+33        <activity
+33-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:20:9-23:58
+34            android:name="acs.upb.licenta.aplicatiegrup.popups.PopAddExpenses"
+34-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:21:13-50
+35            android:exported="false"
+35-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:22:13-37
+36            android:theme="@style/Theme.Licenta.PopMe" />
+36-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:23:13-55
+37        <activity
+37-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:24:9-26:40
+38            android:name="acs.upb.licenta.aplicatiegrup.adminActivities.AdminEventChatActivity"
+38-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:25:13-67
+39            android:exported="false" />
+39-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:26:13-37
+40        <activity
+40-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:27:9-29:40
+41            android:name="acs.upb.licenta.aplicatiegrup.adminActivities.AdminSelectedEventActivity"
+41-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:28:13-71
+42            android:exported="false" />
+42-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:29:13-37
+43        <activity
+43-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:30:9-32:40
+44            android:name="acs.upb.licenta.aplicatiegrup.adminActivities.AdminEventsActivity"
+44-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:31:13-64
+45            android:exported="false" />
+45-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:32:13-37
+46        <activity
+46-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:33:9-35:40
+47            android:name="acs.upb.licenta.aplicatiegrup.adminActivities.AdminMemberProfileActivity"
+47-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:34:13-71
+48            android:exported="false" />
+48-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:35:13-37
+49        <activity
+49-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:36:9-38:40
+50            android:name="acs.upb.licenta.aplicatiegrup.adminActivities.AdminViewMembersActivity"
+50-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:37:13-69
+51            android:exported="false" />
+51-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:38:13-37
+52        <activity
+52-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:39:9-42:55
+53            android:name="acs.upb.licenta.aplicatiegrup.eventActivities.TaskManagerActivity"
+53-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:40:13-64
+54            android:exported="false"
+54-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:41:13-37
+55            android:windowSoftInputMode="adjustPan" />
+55-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:42:13-52
+56        <activity
+56-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:43:9-46:58
+57            android:name="acs.upb.licenta.aplicatiegrup.popups.PopAddTask"
+57-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:44:13-46
+58            android:exported="false"
+58-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:45:13-37
+59            android:theme="@style/Theme.Licenta.PopMe" />
+59-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:46:13-55
+60        <activity
+60-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:47:9-49:40
+61            android:name="acs.upb.licenta.aplicatiegrup.adminActivities.AdminActivity"
+61-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:48:13-58
+62            android:exported="false" />
+62-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:49:13-37
+63        <activity
+63-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:50:9-52:40
+64            android:name="acs.upb.licenta.aplicatiegrup.adminActivities.AdminGroupsActivity"
+64-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:51:13-64
+65            android:exported="false" />
+65-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:52:13-37
+66        <activity
+66-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:53:9-55:40
+67            android:name="acs.upb.licenta.aplicatiegrup.adminActivities.AdminSelectedGroupActivity"
+67-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:54:13-71
+68            android:exported="false" />
+68-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:55:13-37
+69
+70        <service
+70-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:57:9-60:40
+71            android:name="acs.upb.licenta.aplicatiegrup.others.MyBackgroundService"
+71-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:58:13-55
+72            android:enabled="true"
+72-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:59:13-35
+73            android:exported="false" />
+73-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:60:13-37
+74
+75        <activity
+75-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:62:9-65:55
+76            android:name="acs.upb.licenta.aplicatiegrup.groupActivities.MemberProfileActivity"
+76-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:63:13-66
+77            android:exported="false"
+77-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:64:13-37
+78            android:windowSoftInputMode="adjustPan" />
+78-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:65:13-52
+79        <activity
+79-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:66:9-69:55
+80            android:name="acs.upb.licenta.aplicatiegrup.groupActivities.ViewMembersActivity"
+80-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:67:13-64
+81            android:exported="false"
+81-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:68:13-37
+82            android:windowSoftInputMode="adjustPan" />
+82-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:69:13-52
+83        <activity
+83-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:70:9-73:58
+84            android:name="acs.upb.licenta.aplicatiegrup.popups.PopGroupCode"
+84-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:71:13-48
+85            android:exported="false"
+85-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:72:13-37
+86            android:theme="@style/Theme.Licenta.PopMe" />
+86-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:73:13-55
+87        <activity
+87-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:74:9-77:58
+88            android:name="acs.upb.licenta.aplicatiegrup.popups.PopDoubleCheckDeleteGroup"
+88-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:75:13-61
+89            android:exported="false"
+89-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:76:13-37
+90            android:theme="@style/Theme.Licenta.PopMe" />
+90-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:77:13-55
+91        <activity
+91-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:78:9-81:58
+92            android:name="acs.upb.licenta.aplicatiegrup.popups.PopDoubleCheckDeleteEvent"
+92-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:79:13-61
+93            android:exported="false"
+93-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:80:13-37
+94            android:theme="@style/Theme.Licenta.PopMe" />
+94-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:81:13-55
+95        <activity
+95-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:82:9-85:58
+96            android:name="acs.upb.licenta.aplicatiegrup.popups.PopDoubleCheckLeaveGroup"
+96-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:83:13-60
+97            android:exported="false"
+97-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:84:13-37
+98            android:theme="@style/Theme.Licenta.PopMe" />
+98-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:85:13-55
+99        <activity
+99-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:86:9-89:58
+100            android:name="acs.upb.licenta.aplicatiegrup.popups.PopDoubleCheckLeaveEvent"
+100-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:87:13-60
+101            android:exported="false"
+101-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:88:13-37
+102            android:theme="@style/Theme.Licenta.PopMe" />
+102-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:89:13-55
+103        <activity
+103-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:90:9-93:55
+104            android:name="acs.upb.licenta.aplicatiegrup.eventActivities.ExpenseTrackerActivity"
+104-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:91:13-67
+105            android:exported="false"
+105-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:92:13-37
+106            android:windowSoftInputMode="adjustPan" />
+106-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:93:13-52
+107        <activity
+107-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:94:9-97:55
+108            android:name="acs.upb.licenta.aplicatiegrup.eventActivities.CreatePollActivity"
+108-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:95:13-63
+109            android:exported="false"
+109-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:96:13-37
+110            android:windowSoftInputMode="adjustPan" />
+110-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:97:13-52
+111        <activity
+111-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:98:9-100:40
+112            android:name="acs.upb.licenta.aplicatiegrup.eventActivities.ResultPollActivity"
+112-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:99:13-63
+113            android:exported="false" />
+113-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:100:13-37
+114        <activity
+114-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:101:9-103:40
+115            android:name="acs.upb.licenta.aplicatiegrup.eventActivities.PollsActivity"
+115-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:102:13-58
+116            android:exported="false" />
+116-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:103:13-37
+117        <activity
+117-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:104:9-107:55
+118            android:name="acs.upb.licenta.aplicatiegrup.eventActivities.EventChatActivity"
+118-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:105:13-62
+119            android:exported="false"
+119-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:106:13-37
+120            android:windowSoftInputMode="adjustPan" />
+120-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:107:13-52
+121        <activity
+121-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:108:9-111:55
+122            android:name="acs.upb.licenta.aplicatiegrup.eventActivities.ShoppingListActivity"
+122-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:109:13-65
+123            android:exported="false"
+123-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:110:13-37
+124            android:windowSoftInputMode="adjustPan" />
+124-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:111:13-52
+125        <activity
+125-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:112:9-114:40
+126            android:name="acs.upb.licenta.aplicatiegrup.eventActivities.SelectedEventActivity"
+126-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:113:13-66
+127            android:exported="false" />
+127-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:114:13-37
+128        <activity
+128-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:115:9-118:55
+129            android:name="acs.upb.licenta.aplicatiegrup.eventActivities.CreateEventActivity"
+129-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:116:13-64
+130            android:exported="false"
+130-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:117:13-37
+131            android:windowSoftInputMode="adjustPan" />
+131-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:118:13-52
+132        <activity
+132-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:119:9-122:58
+133            android:name="acs.upb.licenta.aplicatiegrup.popups.PopJoinGroup"
+133-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:120:13-48
+134            android:exported="false"
+134-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:121:13-37
+135            android:theme="@style/Theme.Licenta.PopMe" />
+135-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:122:13-55
+136        <activity
+136-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:123:9-125:40
+137            android:name="acs.upb.licenta.aplicatiegrup.groupActivities.SelectedGroupActivity"
+137-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:124:13-66
+138            android:exported="false" />
+138-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:125:13-37
+139        <activity
+139-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:126:9-129:58
+140            android:name="acs.upb.licenta.aplicatiegrup.popups.PopCreateGroup"
+140-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:127:13-50
+141            android:exported="false"
+141-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:128:13-37
+142            android:theme="@style/Theme.Licenta.PopMe" />
+142-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:129:13-55
+143        <activity
+143-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:130:9-132:40
+144            android:name="acs.upb.licenta.aplicatiegrup.groupActivities.MyGroupsActivity"
+144-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:131:13-61
+145            android:exported="false" />
+145-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:132:13-37
+146        <activity
+146-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:133:9-135:40
+147            android:name="acs.upb.licenta.aplicatiegrup.eventActivities.MyEventsActivity"
+147-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:134:13-61
+148            android:exported="false" />
+148-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:135:13-37
+149        <activity
+149-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:136:9-138:40
+150            android:name="acs.upb.licenta.aplicatiegrup.eventActivities.CalendarActivity"
+150-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:137:13-61
+151            android:exported="false" />
+151-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:138:13-37
+152        <activity
+152-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:139:9-142:55
+153            android:name="acs.upb.licenta.aplicatiegrup.userRelated.ProfileActivity"
+153-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:140:13-56
+154            android:exported="false"
+154-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:141:13-37
+155            android:windowSoftInputMode="adjustPan" />
+155-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:142:13-52
+156        <activity
+156-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:143:9-145:40
+157            android:name="acs.upb.licenta.aplicatiegrup.others.DrawerBaseActivity"
+157-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:144:13-54
+158            android:exported="false" />
+158-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:145:13-37
+159        <activity
+159-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:146:9-148:40
+160            android:name="acs.upb.licenta.aplicatiegrup.MainMenuActivity"
+160-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:147:13-45
+161            android:exported="false" />
+161-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:148:13-37
+162        <activity
+162-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:149:9-152:55
+163            android:name="acs.upb.licenta.aplicatiegrup.userRelated.RegisterActivity"
+163-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:150:13-57
+164            android:exported="false"
+164-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:151:13-37
+165            android:windowSoftInputMode="adjustPan" />
+165-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:152:13-52
+166        <activity
+166-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:153:9-162:20
+167            android:name="acs.upb.licenta.aplicatiegrup.userRelated.LoginActivity"
+167-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:154:13-54
+168            android:exported="true"
+168-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:155:13-36
+169            android:windowSoftInputMode="adjustPan" >
+169-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:156:13-52
+170            <intent-filter>
+170-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:157:13-161:29
+171                <action android:name="android.intent.action.MAIN" />
+171-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:158:17-69
+171-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:158:25-66
+172
+173                <category android:name="android.intent.category.LAUNCHER" />
+173-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:160:17-77
+173-->C:\Users\Rares\Desktop\Licenta\app\src\main\AndroidManifest.xml:160:27-74
+174            </intent-filter>
+175        </activity>
+176        <activity
+176-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Rares\.gradle\caches\transforms-3\59daaa093809f4e7de26fce6a8b4d89e\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:29:9-46:20
+177            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+177-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Rares\.gradle\caches\transforms-3\59daaa093809f4e7de26fce6a8b4d89e\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:30:13-80
+178            android:excludeFromRecents="true"
+178-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Rares\.gradle\caches\transforms-3\59daaa093809f4e7de26fce6a8b4d89e\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:31:13-46
+179            android:exported="true"
+179-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Rares\.gradle\caches\transforms-3\59daaa093809f4e7de26fce6a8b4d89e\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:32:13-36
+180            android:launchMode="singleTask"
+180-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Rares\.gradle\caches\transforms-3\59daaa093809f4e7de26fce6a8b4d89e\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:33:13-44
+181            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+181-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Rares\.gradle\caches\transforms-3\59daaa093809f4e7de26fce6a8b4d89e\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:34:13-72
+182            <intent-filter>
+182-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Rares\.gradle\caches\transforms-3\59daaa093809f4e7de26fce6a8b4d89e\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:35:13-45:29
+183                <action android:name="android.intent.action.VIEW" />
+183-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Rares\.gradle\caches\transforms-3\59daaa093809f4e7de26fce6a8b4d89e\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:36:17-69
+183-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Rares\.gradle\caches\transforms-3\59daaa093809f4e7de26fce6a8b4d89e\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:36:25-66
+184
+185                <category android:name="android.intent.category.DEFAULT" />
+185-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Rares\.gradle\caches\transforms-3\59daaa093809f4e7de26fce6a8b4d89e\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:38:17-76
+185-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Rares\.gradle\caches\transforms-3\59daaa093809f4e7de26fce6a8b4d89e\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:38:27-73
+186                <category android:name="android.intent.category.BROWSABLE" />
+186-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Rares\.gradle\caches\transforms-3\59daaa093809f4e7de26fce6a8b4d89e\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:39:17-78
+186-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Rares\.gradle\caches\transforms-3\59daaa093809f4e7de26fce6a8b4d89e\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:39:27-75
+187
+188                <data
+188-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Rares\.gradle\caches\transforms-3\59daaa093809f4e7de26fce6a8b4d89e\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:41:17-44:51
+189                    android:host="firebase.auth"
+189-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Rares\.gradle\caches\transforms-3\59daaa093809f4e7de26fce6a8b4d89e\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:42:21-49
+190                    android:path="/"
+190-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Rares\.gradle\caches\transforms-3\59daaa093809f4e7de26fce6a8b4d89e\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:43:21-37
+191                    android:scheme="genericidp" />
+191-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Rares\.gradle\caches\transforms-3\59daaa093809f4e7de26fce6a8b4d89e\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:44:21-48
+192            </intent-filter>
+193        </activity>
+194        <activity
+194-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Rares\.gradle\caches\transforms-3\59daaa093809f4e7de26fce6a8b4d89e\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:47:9-64:20
+195            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+195-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Rares\.gradle\caches\transforms-3\59daaa093809f4e7de26fce6a8b4d89e\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:48:13-79
+196            android:excludeFromRecents="true"
+196-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Rares\.gradle\caches\transforms-3\59daaa093809f4e7de26fce6a8b4d89e\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:49:13-46
+197            android:exported="true"
+197-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Rares\.gradle\caches\transforms-3\59daaa093809f4e7de26fce6a8b4d89e\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:50:13-36
+198            android:launchMode="singleTask"
+198-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Rares\.gradle\caches\transforms-3\59daaa093809f4e7de26fce6a8b4d89e\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:51:13-44
+199            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+199-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Rares\.gradle\caches\transforms-3\59daaa093809f4e7de26fce6a8b4d89e\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:52:13-72
+200            <intent-filter>
+200-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Rares\.gradle\caches\transforms-3\59daaa093809f4e7de26fce6a8b4d89e\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:53:13-63:29
+201                <action android:name="android.intent.action.VIEW" />
+201-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Rares\.gradle\caches\transforms-3\59daaa093809f4e7de26fce6a8b4d89e\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:36:17-69
+201-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Rares\.gradle\caches\transforms-3\59daaa093809f4e7de26fce6a8b4d89e\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:36:25-66
+202
+203                <category android:name="android.intent.category.DEFAULT" />
+203-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Rares\.gradle\caches\transforms-3\59daaa093809f4e7de26fce6a8b4d89e\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:38:17-76
+203-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Rares\.gradle\caches\transforms-3\59daaa093809f4e7de26fce6a8b4d89e\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:38:27-73
+204                <category android:name="android.intent.category.BROWSABLE" />
+204-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Rares\.gradle\caches\transforms-3\59daaa093809f4e7de26fce6a8b4d89e\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:39:17-78
+204-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Rares\.gradle\caches\transforms-3\59daaa093809f4e7de26fce6a8b4d89e\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:39:27-75
+205
+206                <data
+206-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Rares\.gradle\caches\transforms-3\59daaa093809f4e7de26fce6a8b4d89e\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:41:17-44:51
+207                    android:host="firebase.auth"
+207-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Rares\.gradle\caches\transforms-3\59daaa093809f4e7de26fce6a8b4d89e\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:42:21-49
+208                    android:path="/"
+208-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Rares\.gradle\caches\transforms-3\59daaa093809f4e7de26fce6a8b4d89e\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:43:21-37
+209                    android:scheme="recaptcha" />
+209-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Rares\.gradle\caches\transforms-3\59daaa093809f4e7de26fce6a8b4d89e\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:44:21-48
+210            </intent-filter>
+211        </activity>
+212
+213        <service
+213-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Rares\.gradle\caches\transforms-3\59daaa093809f4e7de26fce6a8b4d89e\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:66:9-72:19
+214            android:name="com.google.firebase.components.ComponentDiscoveryService"
+214-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Rares\.gradle\caches\transforms-3\59daaa093809f4e7de26fce6a8b4d89e\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:67:13-84
+215            android:directBootAware="true"
+215-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Rares\.gradle\caches\transforms-3\2657704f89294be76ed728ad40a8fe90\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:34:13-43
+216            android:exported="false" >
+216-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Rares\.gradle\caches\transforms-3\59daaa093809f4e7de26fce6a8b4d89e\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:68:13-37
+217            <meta-data
+217-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Rares\.gradle\caches\transforms-3\59daaa093809f4e7de26fce6a8b4d89e\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:69:13-71:85
+218                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+218-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Rares\.gradle\caches\transforms-3\59daaa093809f4e7de26fce6a8b4d89e\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:70:17-109
+219                android:value="com.google.firebase.components.ComponentRegistrar" />
+219-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Rares\.gradle\caches\transforms-3\59daaa093809f4e7de26fce6a8b4d89e\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:71:17-82
+220            <meta-data
+220-->[com.google.firebase:firebase-database:20.2.0] C:\Users\Rares\.gradle\caches\transforms-3\30a9b4cfc0f1812a596c8c73be559b37\transformed\jetified-firebase-database-20.2.0\AndroidManifest.xml:31:13-33:85
+221                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+221-->[com.google.firebase:firebase-database:20.2.0] C:\Users\Rares\.gradle\caches\transforms-3\30a9b4cfc0f1812a596c8c73be559b37\transformed\jetified-firebase-database-20.2.0\AndroidManifest.xml:32:17-109
+222                android:value="com.google.firebase.components.ComponentRegistrar" />
+222-->[com.google.firebase:firebase-database:20.2.0] C:\Users\Rares\.gradle\caches\transforms-3\30a9b4cfc0f1812a596c8c73be559b37\transformed\jetified-firebase-database-20.2.0\AndroidManifest.xml:33:17-82
+223            <meta-data
+223-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\Rares\.gradle\caches\transforms-3\f6661d505602b1a1cabc6f7fcd278e5e\transformed\jetified-firebase-storage-20.1.0\AndroidManifest.xml:32:13-34:85
+224                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+224-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\Rares\.gradle\caches\transforms-3\f6661d505602b1a1cabc6f7fcd278e5e\transformed\jetified-firebase-storage-20.1.0\AndroidManifest.xml:33:17-107
+225                android:value="com.google.firebase.components.ComponentRegistrar" />
+225-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\Rares\.gradle\caches\transforms-3\f6661d505602b1a1cabc6f7fcd278e5e\transformed\jetified-firebase-storage-20.1.0\AndroidManifest.xml:34:17-82
+226            <meta-data
+226-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\Rares\.gradle\caches\transforms-3\75de762bfa41b0c129883dcf7fc3f957\transformed\jetified-play-services-measurement-api-21.2.2\AndroidManifest.xml:31:13-33:85
+227                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+227-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\Rares\.gradle\caches\transforms-3\75de762bfa41b0c129883dcf7fc3f957\transformed\jetified-play-services-measurement-api-21.2.2\AndroidManifest.xml:32:17-139
+228                android:value="com.google.firebase.components.ComponentRegistrar" />
+228-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\Rares\.gradle\caches\transforms-3\75de762bfa41b0c129883dcf7fc3f957\transformed\jetified-play-services-measurement-api-21.2.2\AndroidManifest.xml:33:17-82
+229            <meta-data
+229-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\Rares\.gradle\caches\transforms-3\b8e71ab1e66eced3ee1ca2f9f2ae3d40\transformed\jetified-firebase-installations-17.1.3\AndroidManifest.xml:17:13-19:85
+230                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+230-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\Rares\.gradle\caches\transforms-3\b8e71ab1e66eced3ee1ca2f9f2ae3d40\transformed\jetified-firebase-installations-17.1.3\AndroidManifest.xml:18:17-127
+231                android:value="com.google.firebase.components.ComponentRegistrar" />
+231-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\Rares\.gradle\caches\transforms-3\b8e71ab1e66eced3ee1ca2f9f2ae3d40\transformed\jetified-firebase-installations-17.1.3\AndroidManifest.xml:19:17-82
+232        </service>
+233
+234        <provider
+234-->[com.squareup.picasso:picasso:2.71828] C:\Users\Rares\.gradle\caches\transforms-3\61bc16214753002a28744e97b875c53e\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+235            android:name="com.squareup.picasso.PicassoProvider"
+235-->[com.squareup.picasso:picasso:2.71828] C:\Users\Rares\.gradle\caches\transforms-3\61bc16214753002a28744e97b875c53e\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+236            android:authorities="acs.upb.licenta.aplicatiegrup.com.squareup.picasso"
+236-->[com.squareup.picasso:picasso:2.71828] C:\Users\Rares\.gradle\caches\transforms-3\61bc16214753002a28744e97b875c53e\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+237            android:exported="false" />
+237-->[com.squareup.picasso:picasso:2.71828] C:\Users\Rares\.gradle\caches\transforms-3\61bc16214753002a28744e97b875c53e\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+238        <provider
+238-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Rares\.gradle\caches\transforms-3\2657704f89294be76ed728ad40a8fe90\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:25:9-30:39
+239            android:name="com.google.firebase.provider.FirebaseInitProvider"
+239-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Rares\.gradle\caches\transforms-3\2657704f89294be76ed728ad40a8fe90\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:26:13-77
+240            android:authorities="acs.upb.licenta.aplicatiegrup.firebaseinitprovider"
+240-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Rares\.gradle\caches\transforms-3\2657704f89294be76ed728ad40a8fe90\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:27:13-72
+241            android:directBootAware="true"
+241-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Rares\.gradle\caches\transforms-3\2657704f89294be76ed728ad40a8fe90\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:28:13-43
+242            android:exported="false"
+242-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Rares\.gradle\caches\transforms-3\2657704f89294be76ed728ad40a8fe90\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:29:13-37
+243            android:initOrder="100" />
+243-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Rares\.gradle\caches\transforms-3\2657704f89294be76ed728ad40a8fe90\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:30:13-36
+244        <provider
+244-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Rares\.gradle\caches\transforms-3\91231d5ea19e79e1183ac9875223993a\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+245            android:name="androidx.startup.InitializationProvider"
+245-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Rares\.gradle\caches\transforms-3\91231d5ea19e79e1183ac9875223993a\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+246            android:authorities="acs.upb.licenta.aplicatiegrup.androidx-startup"
+246-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Rares\.gradle\caches\transforms-3\91231d5ea19e79e1183ac9875223993a\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+247            android:exported="false" >
+247-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Rares\.gradle\caches\transforms-3\91231d5ea19e79e1183ac9875223993a\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+248            <meta-data
+248-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Rares\.gradle\caches\transforms-3\91231d5ea19e79e1183ac9875223993a\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+249                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+249-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Rares\.gradle\caches\transforms-3\91231d5ea19e79e1183ac9875223993a\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+250                android:value="androidx.startup" />
+250-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Rares\.gradle\caches\transforms-3\91231d5ea19e79e1183ac9875223993a\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+251            <meta-data
+251-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Rares\.gradle\caches\transforms-3\977149f332bd5d75e82e893bdc178279\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+252                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+252-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Rares\.gradle\caches\transforms-3\977149f332bd5d75e82e893bdc178279\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+253                android:value="androidx.startup" />
+253-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Rares\.gradle\caches\transforms-3\977149f332bd5d75e82e893bdc178279\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+254        </provider>
+255
+256        <receiver
+256-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Rares\.gradle\caches\transforms-3\1e5c8562abbb89781a38e3fc1af109c4\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:29:9-33:20
+257            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+257-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Rares\.gradle\caches\transforms-3\1e5c8562abbb89781a38e3fc1af109c4\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:30:13-85
+258            android:enabled="true"
+258-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Rares\.gradle\caches\transforms-3\1e5c8562abbb89781a38e3fc1af109c4\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:31:13-35
+259            android:exported="false" >
+259-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Rares\.gradle\caches\transforms-3\1e5c8562abbb89781a38e3fc1af109c4\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:32:13-37
+260        </receiver>
+261
+262        <service
+262-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Rares\.gradle\caches\transforms-3\1e5c8562abbb89781a38e3fc1af109c4\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:35:9-38:40
+263            android:name="com.google.android.gms.measurement.AppMeasurementService"
+263-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Rares\.gradle\caches\transforms-3\1e5c8562abbb89781a38e3fc1af109c4\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:36:13-84
+264            android:enabled="true"
+264-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Rares\.gradle\caches\transforms-3\1e5c8562abbb89781a38e3fc1af109c4\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:37:13-35
+265            android:exported="false" />
+265-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Rares\.gradle\caches\transforms-3\1e5c8562abbb89781a38e3fc1af109c4\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:38:13-37
+266        <service
+266-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Rares\.gradle\caches\transforms-3\1e5c8562abbb89781a38e3fc1af109c4\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:39:9-43:72
+267            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+267-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Rares\.gradle\caches\transforms-3\1e5c8562abbb89781a38e3fc1af109c4\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:40:13-87
+268            android:enabled="true"
+268-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Rares\.gradle\caches\transforms-3\1e5c8562abbb89781a38e3fc1af109c4\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:41:13-35
+269            android:exported="false"
+269-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Rares\.gradle\caches\transforms-3\1e5c8562abbb89781a38e3fc1af109c4\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:42:13-37
+270            android:permission="android.permission.BIND_JOB_SERVICE" />
+270-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Rares\.gradle\caches\transforms-3\1e5c8562abbb89781a38e3fc1af109c4\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:43:13-69
+271
+272        <activity
+272-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Rares\.gradle\caches\transforms-3\24078f812caa1a218ac0acc9443c235b\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+273            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+273-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Rares\.gradle\caches\transforms-3\24078f812caa1a218ac0acc9443c235b\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+274            android:exported="false"
+274-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Rares\.gradle\caches\transforms-3\24078f812caa1a218ac0acc9443c235b\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+275            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+275-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Rares\.gradle\caches\transforms-3\24078f812caa1a218ac0acc9443c235b\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+276
+277        <uses-library
+277-->[androidx.window:window:1.0.0] C:\Users\Rares\.gradle\caches\transforms-3\3ef78bb168bcefede20430d1e8b03ab4\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+278            android:name="androidx.window.extensions"
+278-->[androidx.window:window:1.0.0] C:\Users\Rares\.gradle\caches\transforms-3\3ef78bb168bcefede20430d1e8b03ab4\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+279            android:required="false" />
+279-->[androidx.window:window:1.0.0] C:\Users\Rares\.gradle\caches\transforms-3\3ef78bb168bcefede20430d1e8b03ab4\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+280        <uses-library
+280-->[androidx.window:window:1.0.0] C:\Users\Rares\.gradle\caches\transforms-3\3ef78bb168bcefede20430d1e8b03ab4\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+281            android:name="androidx.window.sidecar"
+281-->[androidx.window:window:1.0.0] C:\Users\Rares\.gradle\caches\transforms-3\3ef78bb168bcefede20430d1e8b03ab4\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+282            android:required="false" />
+282-->[androidx.window:window:1.0.0] C:\Users\Rares\.gradle\caches\transforms-3\3ef78bb168bcefede20430d1e8b03ab4\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+283
+284        <meta-data
+284-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Rares\.gradle\caches\transforms-3\aea6e287c8e687d55aa9b8645a9dbd98\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+285            android:name="com.google.android.gms.version"
+285-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Rares\.gradle\caches\transforms-3\aea6e287c8e687d55aa9b8645a9dbd98\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+286            android:value="@integer/google_play_services_version" />
+286-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Rares\.gradle\caches\transforms-3\aea6e287c8e687d55aa9b8645a9dbd98\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+287    </application>
+288
+289</manifest>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="365dp"
+    android:layout_height="150dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardBackgroundColor="#3F51B5"
+    android:layout_gravity="center"
+    android:layout_marginBottom="10dp">
+
+    <LinearLayout
+        android:layout_width="365dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"/>
+
+    <LinearLayout
+        android:layout_width="365dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"/>
+
+    <TextView
+        android:id="@+id/expenseText"
+        android:textColor="@color/white"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pay for: "
+        android:textStyle="bold"
+        android:textSize="25sp"
+        />
+
+    <TextView
+        android:id="@+id/totalSumText"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="60dp"
+        android:layout_below="@id/expenseText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total amount to pay: "
+        />
+
+    <TextView
+        android:id="@+id/memberSumText"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/totalSumText"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="10dp"
+        android:text="Amount to pay per person: " />
+
+</androidx.cardview.widget.CardView>
